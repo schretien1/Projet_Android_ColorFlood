@@ -1,0 +1,61 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\P8_Sokoban.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* default.properties
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\p8\.idea\.name => app\src\main\resources\p8\.idea\.name
+* src\p8\.idea\compiler.xml => app\src\main\resources\p8\.idea\compiler.xml
+* src\p8\.idea\copyright\profiles_settings.xml => app\src\main\resources\p8\.idea\copyright\profiles_settings.xml
+* src\p8\.idea\misc.xml => app\src\main\resources\p8\.idea\misc.xml
+* src\p8\.idea\modules.xml => app\src\main\resources\p8\.idea\modules.xml
+* src\p8\.idea\p8.iml => app\src\main\resources\p8\.idea\p8.iml
+* src\p8\.idea\vcs.xml => app\src\main\resources\p8\.idea\vcs.xml
+* src\p8\.idea\workspace.xml => app\src\main\resources\p8\.idea\workspace.xml
+* src\p8\demo\p8sokoban\.idea\.name => app\src\main\resources\p8\demo\p8sokoban\.idea\.name
+* src\p8\demo\p8sokoban\.idea\compiler.xml => app\src\main\resources\p8\demo\p8sokoban\.idea\compiler.xml
+* src\p8\demo\p8sokoban\.idea\copyright\profiles_settings.xml => app\src\main\resources\p8\demo\p8sokoban\.idea\copyright\profiles_settings.xml
+* src\p8\demo\p8sokoban\.idea\misc.xml => app\src\main\resources\p8\demo\p8sokoban\.idea\misc.xml
+* src\p8\demo\p8sokoban\.idea\modules.xml => app\src\main\resources\p8\demo\p8sokoban\.idea\modules.xml
+* src\p8\demo\p8sokoban\.idea\p8sokoban.iml => app\src\main\resources\p8\demo\p8sokoban\.idea\p8sokoban.iml
+* src\p8\demo\p8sokoban\.idea\vcs.xml => app\src\main\resources\p8\demo\p8sokoban\.idea\vcs.xml
+* src\p8\demo\p8sokoban\.idea\workspace.xml => app\src\main\resources\p8\demo\p8sokoban\.idea\workspace.xml
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

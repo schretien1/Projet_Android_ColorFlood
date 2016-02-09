@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <p8.demo.p8sokoban.SokobanView android:id="@+id/SokobanView"
+        android:layout_width="fill_parent"
+        android:layout_height="561dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/compteur"
+        android:layout_gravity="center_horizontal|top"
+        android:height="30dp"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <Chronometer
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:id="@+id/chronometer"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_column="37"
+            android:layout_marginTop="148dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</FrameLayout>
+<!-- From: file:/C:/Users/kevin/AndroidStudioProjects/Color_Flood1/app/src/main/res/layout/main.xml -->
